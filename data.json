@@ -1,0 +1,49 @@
+{
+    "projects":[
+        {
+            "id": 0,
+            "project_name": "random-quote-generator",
+            "description": "generates a random quote",
+            "technologies": ["Javascript","HTML","CSS"],
+            "live_link": "https://edward-perez.github.io/random-quote-generator/",
+            "github_link": "https://github.com/Edward-Perez/random-quote-generator",
+            "image_urls": [""]
+        },
+        {
+            "id": 1,
+            "project_name": "list-pagination-and-filtering",
+            "description": "JavaScript Pagination and Progressive Enhancement to improve the usability of a site.",
+            "technologies": ["Javascript","HTML","CSS"],
+            "live_link": "https://edward-perez.github.io/list-pagination-and-filtering/",
+            "github_link": "https://github.com/Edward-Perez/list-pagination-and-filtering",
+            "image_urls": [""]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Interactive registration form for a fictional conference called \"FullStack Conf\"",
+            "technologies": ["Javascript","HTML","CSS", "JQuery"],
+            "live_link": "https://edward-perez.github.io/interactive-form/",
+            "github_link": "https://github.com/Edward-Perez/interactive-form",
+            "image_urls": [""]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "A word guessing game named Phrase Hunter.",
+            "technologies": ["Javascript","HTML","CSS"],
+            "live_link": "https://edward-perez.github.io/game-show-app/",
+            "github_link": "https://github.com/Edward-Perez/game-show-app",
+            "image_urls": [""]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Request",
+            "description": "App that generates random user data for a fictional company using a public API",
+            "technologies": ["JavaScript","HTML","CSS"],
+            "live_link": "https://edward-perez.github.io/public-api-request/",
+            "github_link": "https://github.com/Edward-Perez/public-api-request",
+            "image_urls": [""]
+        }
+    ]
+}
