@@ -20,11 +20,11 @@ app.use( (req, res, next) => {
 // Display error 
 app.use( (err, req, res, next) => {
     res.locals.error = err;
-    console.error(`There is a ${err.status} error.`);
+    console.error(`Error message "${err.message}" with status code "${err.status}."`);
     res.render('error');
 });
 
 // Create server
 app.listen(port, () => {
-    console.log(`listening on ${port}`);
+    console.log(`listening on port number ${port}`);
 })
