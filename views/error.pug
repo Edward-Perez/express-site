@@ -11,6 +11,7 @@ html(class="no-js" lang="en" dir="ltr")
   body.error-image
         
         a.button.expanded.error-button(href=`/`)
-            h3.error-message Whoa, looks like something went wrong
-            p.error-message Danbo has spotted a #{error.status} error... 
-            p.error-message  Return home 
+            h3 #{error.message}
+            p Danbo has spotted a #{error.status} error... 
+            p  Return home 
+        p.error-stack #{error.stack}

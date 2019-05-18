@@ -22,16 +22,4 @@ router.get('/project/:id', (req, res, next) => {
     }
 });
 
-router.use( (req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-  
-router.use( (err, req, res, next) => {
-    res.locals.error = err;
-    console.error(`There is a ${err.status} error.`);
-    res.render('error');
-});
-
 module.exports = router;

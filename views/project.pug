@@ -8,10 +8,10 @@ block content
       .cell.small-6.medium-9.large-9
 
         //- Use interploation to dynamically add the project title.
-        h1  #{projects[id].project_name}
+        h1.text-light.font-righteous.wheat-text-shadow  #{projects[id].project_name}
 
         //- Use interploation to dynamically add the project description.
-        p.lead.text-light
+        p.lead.text-light-wheat
           | #{projects[id].description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
@@ -27,6 +27,6 @@ block content
         a.button.expanded(href=`${projects[id].github_link}` target='_blank') GitHub Repo
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see. 
-    img.image(src=`${projects[id].image_urls[1]}`)
+    img.wheat-shadow.image(src=`${projects[id].image_urls[1]}`)
     //- img.image(src='https://placehold.it/1200x550')
     //- img.image(src='https://placehold.it/1200x550')

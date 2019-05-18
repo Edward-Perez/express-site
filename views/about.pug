@@ -2,26 +2,23 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/').text-light ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Add your name.
-        h1 Edward Perez
+        h1.text-light.font-righteous The Black Mambo
+        p.lead.text-light.font-righteous
+          | Full Stack JavaScript GOD
 
-        //- Feel free personalize the title below
-        p.lead.text-light
-          | Full Stack JavaScript Developer.
-
-        //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
-          p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+          p.text-light
+            | I have 4 paws for tree-traversal and caching. 
+            br
+            br
+            | What more should I say...
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Skills
+        h6.text-light.font-righteous Skills
 
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
@@ -31,17 +28,17 @@ block content
           li JQuery
           li GIT 
           li MongoDB
-        h6 Contact Info
+        h6.text-light.font-righteous Contact Info
 
         //- Add your own contact info
         ul
-          li Not available
-          li edward.121489@gmail.com
+          li 000-000-MAMBO
+          li thehitlist@mambo.com
 
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
+        a.button.expanded(href='#') LinkedIn
         a.button.expanded(href='https://github.com/Edward-Perez') GitHub
-        a.button.expanded(href='') Twitter
+        a.button.expanded(href='#') Twitter
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   
