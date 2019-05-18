@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+const index = require('./routes/index.js');
 
-app.use('static', express.static('public'));
 app.set('view engine', 'pug');
+app.use('/static', express.static('public'));
+app.use(index);
 
-app.get('/', (req, res, next) => {
-    res.render('layout');
-});
+
 
 app.listen(port, () => {
     console.log(`listening on ${port}`);

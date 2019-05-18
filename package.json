@@ -4,7 +4,8 @@
   "description": "express-portfolio",
   "main": "app.js",
   "scripts": {
-    "test": "--inspect"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect app.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   "homepage": "https://github.com/Edward-Perez/express-site#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "nodemon": "^1.19.0",
     "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }
