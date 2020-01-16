@@ -59,7 +59,7 @@ In this project, I will create a portfolio site to showcase the projects I've bu
 * Clone or Download files
 * Once completed open files in editor and open console
 * In console
-  * Type "npm install" to download all dependecies require for app
+  * Type "npm install" to download all dependencies require for app
   * Once completed type "npm start"
 * There will be a message in your console as to which port the app is listening to
 * By default the app listens to port "3000", you can change this option in a global variable named "port"
