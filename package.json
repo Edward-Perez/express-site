@@ -2,10 +2,10 @@
   "name": "express-site",
   "version": "1.0.0",
   "description": "express-portfolio",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon --exec babel-node ./src/app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,9 @@
     "pug": "^2.0.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
     "nodemon": "^1.19.4"
   }
 }
