@@ -2,10 +2,11 @@
   "name": "express-site",
   "version": "1.0.0",
   "description": "express-portfolio",
-  "main": "./src/app.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node ./src/app.js"
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",
@@ -14,19 +15,11 @@
   "keywords": [],
   "author": "Edward Perez",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Edward-Perez/express-site/issues",
-    "email": "edward.121489@gmail.com"
-  },
-  "homepage": "https://github.com/Edward-Perez/express-site",
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^2.0.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/node": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.4"
   }
 }
